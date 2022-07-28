@@ -4,7 +4,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Widget from "../../components/widget/Widget";
 import "./home.scss";
-import List from "../../components/table/Table";
+import TableClass from "../../components/table/Table";
 
 const Home = () => {
   return (
@@ -24,7 +24,7 @@ const Home = () => {
         </div>
         <div className="listContainer">
           <div className="listTitle">Latest Transactions</div>
-          <List />
+          <TableClass />
         </div>
       </div>
     </div>
